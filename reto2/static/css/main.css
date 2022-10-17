@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    background-color: rgb(13 25 43);
+}
+main section{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+main section div.card{
+    background-color: rgb(20 37 61);
+    border-radius: 10px;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    main section div.card div.image img{
+        width: 250px;
+    }
+    main section div.card div.message{
+        margin-left: 25px;
+    }
+    main section div.card div.message h4{
+        color: white;
+        margin: 1em 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    main section div.card div.message p{
+        color: rgb(88 100 117);
+    }
+    main section div.card div.reference{
+        border-bottom: solid 0.5px gray;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        width: 80%;
+    }
+    main section div.card div.reference div.item{
+        color:rgb(5 200 201);
+    }
+    main section div.card div.reference div.item:nth-child(2){
+        color:rgb(90 102 119);
+    }
+    main section div.card div.footer{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        width: 90%;
+    }
+    main section div.card div.footer img{
+        width: 40px;
+    }
+    main section div.card div.footer span{
+        color: white;
+    }
+    main section div.card div.footer span a{
+        color: gray;
+        text-decoration: none;
+    }

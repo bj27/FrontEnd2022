@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin:auto;
+    width: 80%;
+}
+    main header nav.option{
+        background-color:black;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 3px 0px;
+        border-radius: 8px 8px 0px 0px;
+        
+    }
+    main header nav.option a{
+        background-color: black;
+        border-radius: 8px;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 100px;
+        padding: 0em 1em;
+        transition: ease-out all 0.5s;
+        text-decoration: none;
+        margin: 0 -4px;
+    }
+    main header nav.option a:hover{
+        background-color:red;
+        color:white;
+    }
+    main header nav.option a img{
+        height: 80px;
+    }
+
+main section.banner{
+    background: url(../img/logo.png) #e9e9e9;
+    background-repeat: no-repeat;
+    background-position : center;
+    background-size: inherit;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    padding-top:  2em;
+    padding-bottom: 2em;
+    width: 100%;
+}
+    main section.banner div{
+        width:40%;
+    }
+    main section.banner div.message{
+        margin:2em;
+    }
+    main section.banner div.message h1,
+    main section.banner div.message p{
+        margin-bottom: 1em;
+    }
+    main section.banner div.message a button{
+        background: rgb(255 153 153);
+        border-radius: 10px;
+        box-shadow: 0 1px 4px black;
+        color: white;
+        cursor: pointer;
+        text-shadow: 1px 1px 1px black;
+        padding: 1em 2em;
+        transition: ease-out all 0.5s;
+        margin-bottom: 2em;
+    }
+    main section.banner div.message a button:hover{
+        background: rgb(207, 115, 115);
+        padding: 1em 2em;
+    }
+    main section.banner div.message div{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    main section.banner div.message div a{
+        cursor: pointer;
+        display: inline-block;
+        list-style: none;
+        margin-left: 2em;
+    }
+    main section.banner div.message div a i{
+        border-radius: 50%;
+        background: white;
+        border: 1px solid white;
+        box-shadow: 0px 0px 4px black;
+        color: black;
+        padding: 1em;
+        transition: ease-out all 0.5s;
+    }
+    main section.banner div.message div a i:hover{
+        color: white;
+        background: black;
+        border: 1px solid black;
+        box-shadow: 0px 0px 1px black;
+    }
+    main section.banner div.image{
+        display: flex;
+        justify-content: center;
+    }
+    main section.banner div.image  img{
+        border: solid 10px black;
+        border-radius:  50%;
+        box-shadow: 1px 1px 10px black;
+        cursor: pointer;
+        transition: ease-out all 0.2s;
+        width: 370px;
+    }
+    main section.banner div.image img:hover{
+        /* border: solid 10px white; */
+        border-radius:  50%;
+        box-shadow: 1px 1px 10px black;
+    }
+main section.work{
+    background-color:black;
+    padding-top: 4em;
+}
+    main section.work div.title h2{
+        color:  white;
+        margin-bottom: 2em;
+        text-align: center;
+    }
+    main section.work div.item-content{
+        background: rgb(60 66 65 / 75%);
+    }
+    main section.work div.item-content div.item{
+        border-top: dashed 1px white;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        /* margin-bottom: 2em; */
+        margin-top: 2em;
+        padding-bottom: 4em;
+        padding-top: 4em;
+    }
+    main section.work div.item-content div.item div{
+        width: 50%;
+    }
+    main section.work div.item-content div.item div{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    main section.work div.item-content div.item div.image img{
+        width: auto;
+    }
+    main section.work div.item-content div.item div.message{
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        text-align: center;
+    }
+    main section.work div.item-content div.item div.message > *{
+        margin-bottom: 1.5em;
+    }
+    main section.work div.item-content div.item div.message a button{
+        background: red;
+        border-radius: 10px;
+        color:white;
+        cursor: pointer;
+        padding: 1em 3em;
+    }
+    main section.work div.item-content div.item div.message h3,
+    main section.work div.item-content div.item div.message h4{
+        color:white;
+    }
+main footer{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+    main footer{
+        background: black;
+        padding: 2em 2em;
+    }
+    main footer div.copy{
+        color: white;
+        font-size: 1.5em;
+        padding-top: 5px;;
+    }
+    main footer div.social{
+        display: flex;
+        justify-items: center;
+        justify-content: space-around;
+        width: 30%;
+    }
+    main footer div.social a i {
+        background: white;
+        border: 1px solid white;
+        border-radius: 50%;
+        color: black;
+        cursor: pointer;
+        padding: 1em;
+        transition: ease-out all 0.5s;
+    }
+    main footer div.social a i:hover{
+        color: white;
+        background: black;
+        border: 1px solid black;
+        box-shadow: 0px 0px 1px black;
+    }

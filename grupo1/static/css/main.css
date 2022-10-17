@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+main header{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+    main header div.logo{
+        position: relative;
+        align-items: center;
+    }
+    main header div.logo span  div{
+        position: absolute;
+        width: 41.72px;
+        height: 41.72px;
+
+    }
+    main header div.logo span .logo1{
+        width: 41.72px;
+        height: 41.72px;
+        left: 160px;
+        /* top: 47.5px; */
+
+        background: #6D0AD3;
+        transform: rotate(135deg);
+    }
+    main header div.logo span .logo2{
+        position: absolute;
+        width: 41.72px;
+        height: 41.72px;
+        left: 165px;
+        /* top: 47.5px; */
+        
+        background: #00CF95;
+        transform: rotate(135deg);
+    }
+    main header div.logo span .logo3{
+        position: absolute;
+        width: 41.72px;
+        height: 41.72px;
+        left: 170px;
+        /* top: 47.5px; */
+        
+        background: #0098EF;
+        transform: rotate(135deg);
+    }
+    main header div.logo span .logo4{
+        position: absolute;
+        width: 41.72px;
+        height: 41.72px;
+        left: 175px;
+        /* top: 47.5px; */
+        
+        background: #D1FFA2;
+        transform: rotate(135deg);
+    }
+    main header div.logo span .logo{
+        position: absolute;
+        width: 21px;
+        height: 46px;
+        left: 185px;
+        /* top: 46px; */
+        font-family: 'Beth Ellen';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 47px;
+        color: #6D0AD3;
+    }
+    main header .option{
+        display: flex;
+        align-items: center;
+    }
+    main header .option ul{
+        display:flex;
+        flex-direction: row;
+    }
+    main header .option ul li{
+        list-style: none;
+    }
+    main header .option ul li a{
+        border-bottom: solid 4px transparent;
+        text-decoration: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0em 1em;
+        transition: ease-out 0.8s;
+    }
+
+    main header .option ul li a:hover{
+        color: #832FDA;
+        border-bottom: solid 4px #832FDA;
+    }
+    main header .option ul li a:active {
+        color: rgba(0, 207, 149, 1);
+    }
+
+main section.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    margin-top: 1em;
+}
+    main section.banner div.message{
+        display: flex;
+        /* justify-content: center; */
+        /* justify-items: center; */
+        flex-direction: column;
+    }
+    main section.banner div.message h5{
+        font-weight: bolder;
+    }
+    main section.banner div.message > *{
+        margin-top:  12px;
+    }
+    main section.banner div.message h1{
+        color: rgba(0, 207, 149, 1);
+        font-size: 40px;
+    }
+    main section.banner div.message h2{
+        font-size: 30px;
+    }
+    main section.banner div.message p{
+        border-left: solid #80E7CA 6px;
+        padding-left: 1em;
+
+        width: 400px;
+    }
+    main section.banner div.action{
+        display: flex;
+        justify-content: space-between;
+    }
+    main section.banner div.action div.button a button{
+        background: rgba(109, 10, 211, 1);
+        color:white;
+        padding: 4px 1em;
+    }
+    main section.banner div.action div{
+        width: 100%;
+    }
+    main section.banner div.action div.social{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    main section.banner div.action div.social a{
+        text-decoration: none;
+    }
+    main section.banner div.action div.social a i{
+        font-size: 1em;
+        margin-left: 1em;
+    }
+    main section.banner div.img img{
+        background: rgb(209 255 162);
+        border-radius: 50%;
+        padding: 6px 6px 6px 0px;
+        border-radius: 50%;
+        /* width: 200px; */
+    }
+    main section.banner div.social{
+        display: flex;
+        flex-direction: column;
+    }
+    main section.banner div.social span{
+        border: solid 1px transparent;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        padding: 2px 20px;
+        text-align: center;
+    }
+    main section.banner div.social span:nth-child(1){
+        border: solid 1px black;
+        color: black;
+    }
+    main section.banner div.social span:nth-child(2),
+    main section.banner div.social span:nth-child(3){
+        background-color: rgb(80 127 247);
+        margin-top: 4px;
+    }
+    main section.banner div.social span:nth-child(4){
+        background-color: rgb(71 147 218);
+        margin-top: 4px;
+    }
+    main section.direction{
+        display: flex;
+        justify-content: center;
+    }
+main section.portafolio{
+    margin-left: 1em;
+}   
+    main section.portafolio h1,
+    main section.blog h1,
+    main section.services h1{
+        color: rgba(0, 152, 239, 1);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 2em 0px;
+    }
+    main section.portafolio div.content-images{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    main section.portafolio div.content-images div.item{
+        border: solid 1px red;
+        position: relative;
+    }
+    main section.portafolio div.content-images div.item image{
+        position: relative;
+    }
+    main section.portafolio div.content-images div.item div.position-absolute{
+        position: absolute;
+        top: 0px;left: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    main section.portafolio div.content-images div.item div.position-absolute div.card{
+        border-radius: 10px;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        position: initial;
+        background-color: rgba(109, 10, 211, 0.8);
+        padding: 6px;
+        margin: 20px;
+        height: 74%;
+    }
+    main section.portafolio div.content-images div.item div.position-absolute div.card h3{
+        width: 100%;
+    }
+    main section.portafolio div.content-images div.item div.position-absolute div.card .subitems{
+        display: flex;
+        height: 100vh;
+        justify-content: space-between;
+        align-items: end;
+        align-content: flex-end;
+        flex-wrap: wrap;
+    }
+    main section.portafolio div.content-images div.item div.position-absolute div.card .subitems span{
+        background-color: rgba(209, 255, 162, 1);
+        color:#580AAF;
+        border-radius: 10px;
+        font-size: 12px;
+        margin: 4px;
+        padding: 4px;
+    }
+main section.services{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    main section.services div.content-cards{    
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    main section.services div.content-cards div.card{
+        border: solid 4px rgba(209, 255, 162, 1);
+        background-color: rgba(0, 207, 149, 1);
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 1em;
+        height: 218px;
+        width: 218px;
+        transition: ease-out 0.5s;
+    }
+    main section.services div.content-cards div.card img{
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    main section.services div.content-cards div.card div.message{
+        /* background-color:red; */
+        display: flex;
+        padding-bottom: 1em;
+        justify-content: flex-end;
+        align-items: end;
+        height: 50%;
+    }
+    main section.services div.content-cards div.card div.message div.title{
+        background-color:rgba(209, 255, 162, 1);
+        color: rgba(90, 12, 176, 1);
+        padding: 10px;
+        padding-right: 1em;
+        border-radius: 8px 0px 0px 8px;
+        width: 50%;
+        text-align: end;
+        transition: ease-out 0.5s;
+        font-weight: bold;
+    }
+    main section.services div.content-cards div.card:hover{
+        border: solid 4px rgba(90, 12, 176, 1);
+    }
+    main section.services div.content-cards div.card:hover div.message div.title{
+        background-color:rgba(90, 12, 176, 1);
+        color: white;
+        padding: 10px;
+        border-radius: 8px 0px 0px 8px;
+    }
+main section.blog div.content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+    width: 100%;
+}
+    main section.blog div.content div.item{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+    main section.blog div.content div.item div{
+        /* width: 50%; */
+    }
+    main section.blog div.content div.item div.column1{
+        width: 70%;
+    }
+    
+    main section.blog div.content div.item div.column2{
+        width: 30%;
+    }
+    main section.blog div.content div.item div.column1 img{
+        margin: auto opx;
+        padding-right: 10px;
+    }
+    main section.blog div.content div.item div.column2 > * {
+        margin-bottom: 6px;
+    }
+    main section.blog div.content div.item div.column2 h4{
+        border-left: solid 1px rgba(196, 196, 196, 1);
+        padding-left: 10px;
+    }
+    main section.blog div.content div.item div.column2 p{
+        color: rgba(0, 0, 0, 1);
+        font-size: 12px;
+    }
+    main section.blog div.content div.item div.column2 a{
+        color: rgba(90, 12, 176, 1);
+    }
+    main section.blog div.content div.item div img{
+        height:207px;
+        width:auto;
+    }
+    main section.blog div.content div.item div.column2 div img{
+        height: 107px;
+    }
