@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+main .message-father{
+    margin: auto 0px;
+    margin-top: 1em;
+    width: 600px;
+}
+main .message-father div.content{
+    padding: 1em;
+    border-radius: 10px;
+    background-color: white;
+    border: solid 1px rgba(145, 145, 145, 0.308);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1em ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+    main .message-father div.content div.activity{
+        background: rgb(245 246 249);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 10%;
+    }
+    main .message-father div.content div.activity span{
+        font-weight: bolder;
+        color: rgb(86 88 156);
+        cursor: pointer;
+        padding: 4px 0px;
+        transition: color 0.5s;
+    }
+    main .message-father div.content div.activity span:hover{
+        color: red;
+    }
+    main .message-father div.content div.message-content{
+        width: 90%;
+    }
+    main .message-father div.content div.message-content div.header{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-left: 10px;
+    }
+    main .message-father div.content div.message-content div.section{
+        color: rgb(144 149 154);
+        margin: 0px auto;
+        width: 90%;
+    }
+    main .message-father div.content div.message-content div.section p span{
+        color:#5358b6;
+        font-weight: bold;
+    }
+
+    main .message-father div.content div.message-content div.header div.left{
+        display: flex;
+        flex-direction: row;
+    }
+    main .message-father div.content div.message-content div.header div.left > *{
+        margin-left: 10px;
+    }
+    main .message-father div.content div.message-content div.header div.left img{
+        width: 30px;
+    }
+    main .message-father div.content div.message-content div.header div.left span{
+        color: rgb(136 139 146);
+    }
+    main .message-father div.content div.message-content div.header div.left span.me{
+        background-color: rgb(81 80 150);
+        color:white;
+        padding: 0px 10px;
+    }
+    main .message-father div.content div.message-content div.header div.right{
+        display: flex;
+        justify-content: space-between;
+    }
+    main .message-father div.content div.message-content div.header div.right span{
+        color: rgb(200 197 230);
+        cursor: pointer;
+        font-weight: bold;
+        transition: color 0.5s;
+        margin-left: 14px;
+    }
+    main .message-father div.content div.message-content div.header div.right span:hover{
+        color: rgb(83 88 182);
+    }
+    main .message-father div.content div.message-content div.header div.right span.delete{
+        color:#ffb7bd;
+    }
+    main .message-father div.content div.message-content div.header div.right span.delete:hover{
+        color:red;
+    }
+    main .content-request{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+        main .content-request textarea{
+            border: rgb(148 143 172) solid 1px;
+            height: 50px;
+            resize: none;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        main .content-request img{
+            width: 30px;
+        }
+        main .content-request button{
+            background: rgb(196 198 239);
+            border: solid 1px white;
+            color: white;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: background 0.5s;
+        }
+        main .content-request button:hover{
+            background: rgb(83 88 182);
+        }
+
+    main .message-father div.hilo{
+        display: flex;
+        justify-content: space-between;
+    }
+    main .message-father div.hilo div.content{
+        width: 80%;
+    }
+    main .message-father div.hilo div.border{
+        display: flex;
+        width: 70px;
+        align-items: center;
+        justify-content: center;
+    }
+    main .message-father div.hilo div.border div.column{
+        /* border-left: solid 1px black;    width: 6px; */
+        width: 1px;
+        background: #b5b5b579;
+        height: 100%;
+    }
