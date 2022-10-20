@@ -112,6 +112,9 @@ main .message-father div.content{
             border-radius: 10px;
             padding: 10px;
         }
+        main .content-request textarea:focus{
+            border: red solid 1px;
+        }
         main .content-request img{
             width: 30px;
         }
